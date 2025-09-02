@@ -2,6 +2,41 @@
 
 ## Main
 
+## [0.14.1](https://github.com/indielab/temple/compare/v0.14.1...v0.14.1) (2025-09-02)
+
+
+### ⚠ BREAKING CHANGES
+
+* correctly use rest in components ([#266](https://github.com/indielab/temple/issues/266))
+* pass rest! assign as @rest to components ([#261](https://github.com/indielab/temple/issues/261))
+* configure runtime attributes function ([#202](https://github.com/indielab/temple/issues/202))
+
+### Features
+
+* add missing and new HTML elements & MathML ([#240](https://github.com/indielab/temple/issues/240)) ([209589e](https://github.com/indielab/temple/commit/209589e319d06b6aae4d32824370ce6254fd6193))
+* allow component to declare let! parameter ([#245](https://github.com/indielab/temple/issues/245)) ([a18e6fe](https://github.com/indielab/temple/commit/a18e6fea31a70c91cf1a9ebd5548763487e0cc4d)), closes [#239](https://github.com/indielab/temple/issues/239)
+* configure runtime attributes function ([#202](https://github.com/indielab/temple/issues/202)) ([dc57221](https://github.com/indielab/temple/commit/dc57221bc99e165530134559097b27b1dfe95dbe))
+* Mix task to convert HTML into Temple ([#180](https://github.com/indielab/temple/issues/180)) ([2f04250](https://github.com/indielab/temple/commit/2f042506b68552e18e5c0125cf8ddd9ba7274738))
+* New Component API ([ced2f6a](https://github.com/indielab/temple/commit/ced2f6ab662a0875c2d53df890badac0384d863d))
+
+
+### Bug Fixes
+
+* add mathml tags to formatter ([4e8de14](https://github.com/indielab/temple/commit/4e8de1404a390d2ddbb419ff6af8784a7a9f316c))
+* allow normal list elements in class attr ([#246](https://github.com/indielab/temple/issues/246)) ([e79e6c7](https://github.com/indielab/temple/commit/e79e6c7564666a98804182d1373701adaf931434)), closes [#238](https://github.com/indielab/temple/issues/238)
+* correctly use rest in components ([#266](https://github.com/indielab/temple/issues/266)) ([c772e2d](https://github.com/indielab/temple/commit/c772e2d37e4499c2816a5c88e3b98836fb218162))
+* **docs:** typos ([7a50587](https://github.com/indielab/temple/commit/7a505875af6a1cee1536e516528f5be914df1f3f))
+* pass rest! assign as [@rest](https://github.com/rest) to components ([#261](https://github.com/indielab/temple/issues/261)) ([8ff2208](https://github.com/indielab/temple/commit/8ff2208521720016dc096f3e1cd33f33e51c4727)), closes [#254](https://github.com/indielab/temple/issues/254)
+* relax constraint on phoenix_html ([f28468e](https://github.com/indielab/temple/commit/f28468e7f877a39759696333c4135fb1aa877d11))
+* runtime boolean attributes ([#188](https://github.com/indielab/temple/issues/188)) ([f4ce790](https://github.com/indielab/temple/commit/f4ce790411f04aa25fefcc3a9c2cef5d8db4f308)), closes [#187](https://github.com/indielab/temple/issues/187)
+* turn `[@rest](https://github.com/rest)` assign into a map ([2b7feee](https://github.com/indielab/temple/commit/2b7feee7686f6036f90abe88b596d860749d6aec))
+* void foreign elements get self closing tags ([#243](https://github.com/indielab/temple/issues/243)) ([4e8de14](https://github.com/indielab/temple/commit/4e8de1404a390d2ddbb419ff6af8784a7a9f316c)), closes [#242](https://github.com/indielab/temple/issues/242)
+
+
+### Miscellaneous Chores
+
+* release 0.14.1 ([d16b312](https://github.com/indielab/temple/commit/d16b312978909ed97dd6bd795ecf9115714def1c))
+
 ## [0.14.1](https://github.com/mhanberg/temple/compare/v0.14.0...v0.14.1) (2025-03-04)
 
 
